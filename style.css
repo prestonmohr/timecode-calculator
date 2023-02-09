@@ -1,1 +1,192 @@
-body {    min-width: 800px;}.row {    display: flex;    flex-direction: row;    justify-content: center;    width: 100%    overflow: auto;    position: auto;    margin-top:30px;}.hsmf {    display:inlink-block;}.hmsfLabel {    padding-left: 33px;    padding-right: 33px;}#TCAddSubtractTC {    height: 100%;    display: flex;    flex-direction: column;    position: fixed;}#TCAddSubtractFrames {    height: 100%;    display: flex;    flex-direction: column;}#tcLabelBox {    font-family: Arial, Helvetica, sans-serif;    border-radius: 25px;    background: rgba(0,0,0,0.3);    padding: 20px;    width: 330px;    height: 20px;    line-height: 20px;    margin: 10px;    transition: background, height 0.5s;}#tcLabelBox:hover {    background: rgba(0,0,0,0.5);    height: 30px;}#tcAddSubBox {    font-family: Arial, Helvetica, sans-serif;    border-radius: 25px;    background: rgba(0,0,0,0.3);    padding: 20px;    width: 330px;    height: 205px;    margin-left: 10px;    margin-bottom: 5px;    transition: background 0.5s;}#tcAddSubBox:hover {    background: rgba(0,0,0,0.5);}#tcResultBox {    font-family: Arial, Helvetica, sans-serif;    border-radius: 25px;    background: rgba(0,0,0,0.3);    padding: 20px;    width: 330px;    line-height: 25px;    margin-left: 10px;    margin-bottom: 5px;    font-size: 30px;    text-align: center;    transition: background 0.5s;    display: flex;    flex-direction: column;    min-height: 25px;}#tcResultBox:hover {    background: rgba(0,0,0,0.5);}#imagesResultBox {    font-family: Arial, Helvetica, sans-serif;    border-radius: 25px;    background: rgba(0,0,0,0.3);    padding: 20px;    width: 330px;    line-height: 10px;    margin-left: 10px;    margin-bottom: 5px;    font-size: 20px;    text-align: center;    transition: background 0.5s;    display: flex;    flex-direction: column;    min-height: 10px;}#imagesResultBox:hover {    background: rgba(0,0,0,0.5);}#secondsResultBox {    font-family: Arial, Helvetica, sans-serif;    border-radius: 25px;    background: rgba(0,0,0,0.3);    padding: 20px;    width: 330px;    line-height: 10px;    margin-left: 10px;    margin-bottom: 5px;    font-size: 20px;    text-align: center;    transition: background 0.5s;    display: flex;    flex-direction: column;    min-height: 10px;}#secondsResultBox:hover {    background: rgba(0,0,0,0.5);}#khzResultBox {    font-family: Arial, Helvetica, sans-serif;    border-radius: 25px;    background: rgba(0,0,0,0.3);    padding: 20px;    width: 330px;    line-height: 10px;    margin-left: 10px;    margin-bottom: 5px;    font-size: 20px;    text-align: center;    transition: background 0.5s;    display: flex;    flex-direction: column;    min-height: 10px;}#khzResultBox:hover {    background: rgba(0,0,0,0.5);}.timecode1, .timecode2, .timecode3 {    height: auto;    margin: 0 auto;}#fps, #fps2 {    width: 80px;    margin-bottom: 10px;}#hour1, #min1, #sec1, #frame1, #hour2, #min2, #sec2, #frame2, #hour3, #min3, #sec3, #frame3 {    font-size: 33px;    width: 65px;    text-align: center;}#frame4 {    font-size: 33px;    width: 200px;    text-align: center;}#framesLabel {    font-size: 33px;    padding-left: 12px;}#operator, #operator2 {    font-size: 12px;    width: 150px;    text-align: center;    margin-bottom: 10px;    margin-top: 10px;}#colon {    font-size: 35px;    text-align: center;}
+body {
+    min-width: 800px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%
+    overflow: auto;
+    position: auto;
+    margin-top:30px;
+}
+
+.hsmf {
+    display:inlink-block;
+}
+
+.hmsfLabel {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+#TCAddSubtractTC {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+#TCAddSubtractFrames {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#tcLabelBox {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 330px;
+    height: 20px;
+    line-height: 20px;
+    margin: 10px;
+    transition: background, height 0.5s;
+}
+
+#tcLabelBox:hover {
+    background: rgba(0,0,0,0.5);
+    height: 30px;
+}
+
+#tcAddSubBox {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 330px;
+    height: 205px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    transition: background 0.5s;
+}
+
+#tcAddSubBox:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+#tcResultBox {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 330px;
+    line-height: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-align: center;
+    transition: background 0.5s;
+    display: flex;
+    flex-direction: column;
+    min-height: 25px;
+}
+
+#tcResultBox:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+#imagesResultBox {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 330px;
+    line-height: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    transition: background 0.5s;
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;
+}
+
+#imagesResultBox:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+#secondsResultBox {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 330px;
+    line-height: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    transition: background 0.5s;
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;
+}
+
+#secondsResultBox:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+#khzResultBox {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 330px;
+    line-height: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    transition: background 0.5s;
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;
+}
+
+#khzResultBox:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+.timecode1, .timecode2, .timecode3 {
+    height: auto;
+    margin: 0 auto;
+}
+
+#fps, #fps2 {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+#hour1, #min1, #sec1, #frame1, #hour2, #min2, #sec2, #frame2, #hour3, #min3, #sec3, #frame3 {
+    font-size: 33px;
+    width: 65px;
+    text-align: center;
+}
+
+#frame4 {
+    font-size: 33px;
+    width: 200px;
+    text-align: center;
+}
+
+#framesLabel {
+    font-size: 33px;
+    padding-left: 12px;
+}
+
+#operator, #operator2 {
+    font-size: 12px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#colon {
+    font-size: 35px;
+    text-align: center;
+}
