@@ -190,3 +190,7 @@ body {
     font-size: 35px;
     text-align: center;
 }
+
+input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
