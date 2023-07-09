@@ -13,4 +13,6 @@ try out the tool [here](https://prestonmohr.github.io/timecode-calculator/)!
 
 <img width="1105" alt="Screenshot 2023-07-08 at 9 50 48 PM" src="https://github.com/prestonmohr/timecode-calculator/assets/77995599/6d79601e-6c7e-4bae-8fff-36ed18262285">
 
+<img width="1105" alt="Screenshot 2023-07-08 at 9 52 50 PM" src="https://github.com/prestonmohr/timecode-calculator/assets/77995599/98232f78-5130-47d0-b396-a7296fd68d2e">
+
 </div>
